@@ -1,0 +1,12 @@
+[package]
+name = "pythagorean48"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Zero-drift unit vectors from Pythagorean triples — exact direction quantization with integer ratios"
+keywords = ["pythagorean", "direction", "quantization", "zero-drift", "integer"]
+
+[dependencies]
+num-rational = { version = "0.4", features = ["num-bigint-std"] }
+num-bigint = "0.4"
+num-traits = "0.2"
