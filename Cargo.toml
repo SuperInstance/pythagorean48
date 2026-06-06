@@ -7,6 +7,7 @@ description = "Zero-drift unit vectors from Pythagorean triples — exact direct
 keywords = ["pythagorean", "direction", "quantization", "zero-drift", "integer"]
 
 [dependencies]
+ternary-types = { git = "https://github.com/SuperInstance/ternary-types.git", features = ["std"] }
 num-rational = { version = "0.4", features = ["num-bigint-std"] }
 num-bigint = "0.4"
 num-traits = "0.2"
